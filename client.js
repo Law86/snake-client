@@ -11,9 +11,7 @@ const connect = function () {
   
   conn.on('connect', () => {
     console.log("Successfully connected!"),
-    conn.write("Name: LAW"),
-    conn.write("Move: up")
-    
+    conn.write("Name: LAW")   
   })
 
   conn.setTimeout(5000);
